@@ -1,0 +1,33 @@
+{
+  "name":            "is-glob-blacklist",
+  "version":         "0.0.1",
+  "description":     "Detect whether an array of globs is a blacklist",
+  "license":         "MIT",
+  "repository":      "jmversteeg/is-glob-blacklist",
+  "author":          {
+    "name":  "JM Versteeg",
+    "email": "janmerijnversteeg@gmail.com",
+    "url":   "github.com/jmversteeg"
+  },
+  "engines":         {
+    "node": ">=0.10.0"
+  },
+  "scripts":         {
+    "test": "ava"
+  },
+  "files":           [
+    "index.js"
+  ],
+  "keywords":        [
+    ""
+  ],
+  "dependencies":    {},
+  "devDependencies": {
+    "ava": "^0.3.0"
+  },
+  "xo":              {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
