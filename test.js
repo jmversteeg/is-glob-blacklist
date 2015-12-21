@@ -7,5 +7,4 @@ test('Detect whether an array of globs is a blacklist', t => {
 	t.true(isGlobBlacklist(['!foo']));
 	t.false(isGlobBlacklist(['foo', '!foo/bar']));
 	t.true(isGlobBlacklist(['!foo', 'foo/bar']));
-	t.end();
 });
