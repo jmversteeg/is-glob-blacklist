@@ -23,7 +23,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.9.1"
+    "ava": "^0.10.0"
   },
   "xo": {
     "ignores": [
